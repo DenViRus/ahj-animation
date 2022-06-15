@@ -1,0 +1,144 @@
+.task-callbackChat {
+  width: 60%;
+  background-color: rgb(0, 0, 0,  0.7);
+  padding: 20px;
+  border-radius: 20px;
+  cursor: default;
+  margin-top: 20px;
+}
+
+.callbackChat-header-box {
+  margin-bottom: 20px;
+}
+
+.callbackChat-header {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: silver;
+  text-align: center;
+  animation: callbackChatHeaderAnimation 5s linear infinite;
+}
+
+@keyframes callbackChatHeaderAnimation {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+.callbackChat-button-box {
+  display: flex;
+}
+
+.callbackChat-button {
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 0;
+  margin-left: auto;
+  transition: all .5s linear;
+}
+
+.callbackChat-button:hover {
+  width: 120px;
+  height: 120px;
+  font-size: 20px;
+  border-width: 5px;
+}
+
+.callbackChat-button:focus {
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  border-width: 3px;
+}
+
+.callbackChat-modal {
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.callbackChat-modal-header-box {
+  display: flex;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.callbackChat-modal-header {
+  color: white;
+  margin: auto;
+}
+
+.callbackChat-modal-closer {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 5px;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.callbackChat-modal-closer:hover {
+  background-color: red;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  line-height: 100%;
+  border-width: 3px;
+}
+
+.callbackChat-modal-text {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  resize: none;
+  transition: all .3s linear;
+}
+
+.callbackChat-modal-text:hover {
+  background-color: white;
+
+}
+
+.callbackChat-modal-text:focus {
+  background-color: silver;
+  border-color: white;
+}
+
+.callbackChat-modal-button {
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all .5s linear;
+}
+
+.callbackChat-modal-button:hover {
+  background-color: green;
+  border-width: 3px;
+}

@@ -1,0 +1,155 @@
+.task-liker {
+  width: 60%;
+  background-color: rgb(0, 0, 0,  0.7);
+  padding: 20px;
+  border-radius: 20px;
+  cursor: default;
+  margin-top: 20px;
+}
+
+.liker-header-box {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.liker-header {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: silver;
+  width: 50%;
+  text-align: center;
+  animation: likerHeaderAnimation 5s linear infinite alternate;
+}
+
+@keyframes likerHeaderAnimation {
+  from { margin-left: 0; }
+  to {  margin-left: calc(100% - 50%) }
+}
+
+.liker-button-box {
+  text-align: center;
+  position: relative;
+}
+
+.liker-button {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.liker-button:hover {
+  font-size: 30px;
+  border-width: 5px;
+  background-color: green;
+}
+
+.liker-button:focus {
+  font-size: 25px;
+  border-width: 3px;
+  background-color: blue;
+}
+
+.task-like {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.like-img {
+  width: 100%;
+  height: 100%;
+}
+
+.task-like-animation1 {
+  animation: likeAnimation1 5s linear forwards;
+}
+
+@keyframes likeAnimation1 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  20% { top: -100px; left: calc(50% - 75px); }
+  40% { top: -150px; left: calc(50% - 25px); }
+  60% { opacity: 0.5; top: -200px; left: calc(50% + 25px); }
+  80% { top: -250px; left: calc(50% - 25px); }
+  100% { opacity: 0; top: -300px; left: calc(50% - 75px); }
+}
+
+
+.task-like-animation2 {
+  animation: likeAnimation2 5s linear forwards;
+}
+
+@keyframes likeAnimation2 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  20% { top: -100px; left: calc(50% - 25px); }
+  40% { top: -150px; left: calc(50% - 75px); }
+  60% { opacity: 0.5; top: -200px; left: calc(50% - 25px); }
+  80% { top: -250px; left: calc(50% + 25px); }
+  100% { opacity: 0; top: -300px; left: calc(50% - 25px); }
+}
+
+.task-like-animation3 {
+  animation: likeAnimation3 5s linear forwards;
+}
+
+@keyframes likeAnimation3 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  20% { top: -100px; left: calc(50% + 25px); }
+  40% { top: -150px; left: calc(50% - 25px); }
+  60% { opacity: 0.5; top: -200px; left: calc(50% - 75px); }
+  80% { top: -250px; left: calc(50% - 25px); }
+  100% { opacity: 0; top: -300px; left: calc(50% + 25px); }
+}
+
+.task-like-animation4 {
+  animation: likeAnimation4 5s linear forwards;
+}
+
+@keyframes likeAnimation4 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  20% { top: -100px; left: calc(50% + 25px); }
+  40% { top: -150px; left: calc(50% + 75px); }
+  60% { opacity: 0.5; top: -200px; left: calc(50% + 25px); }
+  80% { top: -250px; left: calc(50% - 25px); }
+  100% { opacity: 0; top: -300px; left: calc(50% - 75px); }
+}
+
+.task-like-animation5 {
+  animation: likeAnimation5 10s linear forwards;
+}
+
+@keyframes likeAnimation5 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  10% { top: -100px; left: calc(50% - 75px); }
+  20% { top: -150px; left: calc(50% - 125px); }
+  30% { top: -200px; left: calc(50% - 175px); }
+  40% { opacity: 0.5; top: -250px; left: calc(50% - 125px); }
+  50% { top: -300px; left: calc(50% - 75px); }
+  60% { top: -350px; left: calc(50% - 25px); }
+  70% { opacity: 0.3; top: -400px; left: calc(50% + 25px); }
+  80% { top: -450px; left: calc(50% + 75px); }
+  90% { top: -500px; left: calc(50% + 125px); }
+  100% { opacity: 0; top: -550px; left: calc(50% + 175px); }
+}
+
+.task-like-animation6 {
+  animation: likeAnimation6 10s linear forwards;
+}
+
+@keyframes likeAnimation6 {
+  0% { opacity: 1; top: -50px; left: calc(50% - 25px); }
+  10% { top: -100px; left: calc(50% + 125px); }
+  20% { top: -150px; left: calc(50% + 225px); }
+  30% { top: -200px; left: calc(50% + 325px); }
+  40% { opacity: 0.5; top: -250px; left: calc(50% + 225px); }
+  50% { top: -300px; left: calc(50% + 125px); }
+  60% { top: -350px; left: calc(50% - 25px); }
+  70% { opacity: 0.3; top: -400px; left: calc(50% - 125px); }
+  80% { top: -450px; left: calc(50% - 225px); }
+  90% { top: -500px; left: calc(50% - 325px); }
+  100% { opacity: 0; top: -550px; left: calc(50% - 275px); }
+}
